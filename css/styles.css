@@ -2,6 +2,10 @@ body {
   background-color: #000000;
 }
 
+.header {
+  height: 124px;
+}
+
 .top-line {
   height: 44px;
 }
@@ -14,7 +18,7 @@ body {
 }
 
 .top-text-pad {
-  padding: 0 10px;
+  padding: 0 8px;
 }
 
 .top-reg-login-pad {
@@ -22,13 +26,14 @@ body {
 }
 
 .top-icon-pad {
-  padding-right: 10px;
+  padding-right: 5px;
 }
 
 .logo {
   font-family: "Post No Bills Jaffna Bold";
   font-size: 36px;
   font-weight: 700;
+  line-height: 36px;
   text-transform: uppercase;
   color: #ffffff;
 }
@@ -37,6 +42,7 @@ body {
   height: 80px;
   background: #0f0f0f;
   z-index: 1;
+  padding: 20px 15px;
 }
 
 .nav-bg-menu {
@@ -44,20 +50,28 @@ body {
   width: 100%;
 }
 
-.nav-link-text {
-  text-transform: uppercase;
+.navbar-dark .navbar-nav .nav-link {
   color: #969696;
-  font-family: "PT Sans", sans-serif;
-  font-size: 14px;
-  font-weight: 400;
+  padding: 0;
+  width: 100%;
+  height: 80px;
 }
 
-.nav-item:hover {
+.navbar-dark .navbar-nav .nav-link:hover {
+  color: #ffffff;
   background: #1f1f1f;
 }
 
+.nav-link-text {
+  text-transform: uppercase;
+  font-family: "PT Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 80px;
+}
+
 .nav-item {
-  height: 80px;
+  max-height: 80px;
 }
 
 .first-screen-bg {
@@ -82,20 +96,22 @@ body {
   font-weight: 700;
   text-transform: uppercase;
   color: #ffffff;
-  line-height: 1;
+  height: 65px;
+  text-align: center;
 }
 
 .rectangle-logo-header-sub {
   text-transform: uppercase;
   color: #ffffff;
   font-family: "PT Sans", sans-serif;
-  font-size: 22px;
+  font-size: 19px;
   font-weight: 400;
 }
 
 .logo-line {
-  width: 179px;
+  width: 180px;
   border-top: 2px solid #ffffff;
+  margin: 15px 0 5px 0;
 }
 
 .first-screen-txt {
@@ -243,7 +259,7 @@ body {
 }
 
 .button-collection {
-  width: 320px;
+  width: 325px;
   padding: 10px 20px;
   border: 1px solid #ffffff;
   margin-top: 70px;
@@ -255,7 +271,7 @@ body {
   font-weight: 400;
   font-size: 18px;
   line-height: 24px;
-  letter-spacing: 1.8px;
+  letter-spacing: 0.1em;
   text-align: center;
   text-transform: uppercase;
   color: #ffffff;
@@ -269,7 +285,7 @@ body {
 }
 
 .new-arrivals {
-  min-height: 1289px;
+  height: auto;
 }
 .new-arrivals-header {
   font-family: "Playfair Display", serif;
@@ -326,4 +342,86 @@ body {
   line-height: 21px;
   text-align: left;
   color: #ffffff;
+}
+
+.footer-tag {
+  padding: 10px 20px;
+  min-height: 41px;
+  background: #0f0f0f;
+  margin-bottom: 20px;
+  margin-right: 20px;
+}
+
+.footer-tag-text {
+  font-family: "PT Sans", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 21px;
+  color: #d0d0d0;
+}
+
+.input-group {
+  margin-top: 38px;
+  margin-bottom: 50px;
+}
+
+.input-group input {
+  font-family: "PT Sans", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 21px;
+  background: rgba(255, 255, 255, 0.4);
+  border: none;
+  border-radius: 0;
+  height: 42px;
+  max-width: 210px;
+}
+
+.form-control::-webkit-input-placeholder {
+  color: #969696;
+}
+
+.input-group-append button {
+  font-family: "PT Sans", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 21px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  background: #0f0f0f;
+  color: #ffffff;
+  border-radius: 0;
+  padding: 10px 20px;
+}
+
+.input-group-append button:hover {
+  color: #ffffff;
+}
+
+.footer-last-line {
+  min-height: 50px;
+}
+
+.footer-last-line-text-left {
+  font-family: "PT Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  color: #d0d0d0;
+  text-align: left;
+}
+
+.footer-last-line-text-right {
+  font-family: "PT Sans", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 16px;
+  color: #d0d0d0;
+  text-decoration: underline;
+  text-align: right;
 }
