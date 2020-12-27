@@ -1,3 +1,18 @@
+@font-face {
+  font-family: "Post No Bills Jaffna Bold";
+  font-style: normal;
+  font-weight: 700;
+  src: local("Post No Bills Jaffna Bold"),
+    url("../fonts/PostNoBillsJaffna-Bold.woff") format("woff");
+}
+
+@font-face {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 400;
+  src: local("PT Sans"), url("../fonts/PTSans-Regular.ttf") format("ttf");
+}
+
 body {
   background-color: #000000;
 }
