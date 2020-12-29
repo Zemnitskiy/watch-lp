@@ -65,6 +65,15 @@ body {
   width: 100%;
 }
 
+.navbar-toggler > .close {
+  display: inline;
+  color: rgba(255, 255, 255, 0.5);
+}
+.navbar-toggler.collapsed > .close,
+.navbar-toggler:not(.collapsed) > .navbar-toggler-icon {
+  display: none;
+}
+
 .navbar-dark .navbar-nav .nav-link {
   color: #969696;
   padding: 0;
